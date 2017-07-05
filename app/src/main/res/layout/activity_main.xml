@@ -4,20 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBackground"
     tools:context="com.example.whitepaw.finnandreecesgame.MainActivity">
 
     <TextView
         android:id="@+id/welcome_text"
         android:layout_width="wrap_content"
         android:layout_height="17dp"
-        android:text="Welcome"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="50dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="50dp"
+        android:text="Welcome"
+        android:textColor="@android:color/holo_orange_dark"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.501" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/start_button"
@@ -28,6 +30,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="7dp"
         android:onClick="onClickStartButton"
+        android:textColor="@android:color/holo_orange_dark"
         android:text="Start Game"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -43,6 +46,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="51dp"
         android:text="Can you beat the computer at Rock Paper Scissors?"
+        android:textColor="@android:color/holo_orange_dark"
         android:textAlignment="center"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintLeft_toLeftOf="parent"
