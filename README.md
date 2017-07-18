@@ -1,1 +1,1 @@
-# Finn_n_Reeces_RPSAndriodGame
+# Finn_n_Reeces_RPS_Android_Game
